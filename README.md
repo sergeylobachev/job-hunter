@@ -83,7 +83,7 @@ Example:
 ```python
 EMAIL_FROM = "your-email@gmail.com"
 EMAIL_TO = "your-email@gmail.com"
-EMAIL_PASSWORD = "your-16-character-app-password"
+EMAIL_PASSWORD = "your-16-character-app-password-without-spaces"
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
 ```
@@ -101,8 +101,4 @@ Keep your real secrets only in `config/settings.py`. Commit `config/settings.exa
 
 ## Optional Automation
 
-You can run this script on a schedule with Windows Task Scheduler.
-
-- Program: `C:\Python\job-hunter\job_env\Scripts\python.exe`
-- Arguments: `C:\Python\job-hunter\run.py`
-
+You can run a script on a schedule with Windows Task Scheduler.
